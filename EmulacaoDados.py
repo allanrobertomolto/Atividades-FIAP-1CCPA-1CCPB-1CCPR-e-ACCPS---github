@@ -1,4 +1,4 @@
-#Escrita
+#Criando o arquivo
 import random
 import csv
 
@@ -18,7 +18,7 @@ with open(ARQUIVO, "w", newline="", encoding="utf-8") as f:
 
 print(f"Arquivo '{ARQUIVO}' gerado com sucesso!")
 
-#Leitura
+#Lendo o arquivo
 import csv
 
 with open("log_medidas.csv", "r", encoding="utf-8") as f:
