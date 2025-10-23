@@ -1,1 +1,6 @@
+with open("minhas_compras.txt", "r", encoding="utf-8") as arquivo:
+    print("Itens da lista de compras:\n")
+    for linha in arquivo:
+        print(linha.strip())
+print("\nLeitura concluída com sucesso!")
 
